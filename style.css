@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #eed4e4;
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin: 12px 0;
+    font-weight: 600;
+}
+
+#name,
+#mobile,
+#email,
+#password,
+#confirm {
+    width: 300px;
+    padding: 6px;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+}
+
+#course,
+#year {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.radio-label {
+    display: inline;
+    width: auto;
+    margin: 0;
+    font-weight: normal;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+.check-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: auto;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button[type="button"] {
+    background: #007BFF;
+}
+
+button[type="button"]:hover {
+    background: #0056b3;
+}
+
+button[type="reset"] {
+    background: red;
+    margin-left: 10px;
+}
+
+button[type="reset"]:hover {
+    background: #c70000;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h2>Student Registration Form</h2>
+    <form id="MyForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" placeholder="Enter mobile number" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email" />
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter password" />
+        <label for="confirm">Confirm Password:</label>
+        <input type="password" id="confirm" placeholder="Confirm password" />
+        <label for="course">Course</label><br>
+        <select id="course">
+            <option>Select Course</option>
+            <option>B.Tech</option>
+            <option>B.Pharm</option>
+            <option>B.Sc</option>
+            <option>BBA</option>
+        </select>
+        <label for="year">Year</label><br>
+        <select id="year">
+            <option>Select Year</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+        </select>
+        <label>Gender</label>
+        <div class="gender" id="gender">
+            <input type="radio" id="male" name="gender" />
+            <label for="male" class="radio-label">Male</label>
+            <input type="radio" id="female" name="gender" />
+            <label for="female" class="radio-label">Female</label>
+        </div>
+        <label class="check-label">
+            <input type="checkbox" id="terms" />
+            I accept Terms and Conditions
+        </label>
+        <br /><br />
+        <button type="button" id="submit" onclick="validateform()">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
